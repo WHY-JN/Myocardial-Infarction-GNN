@@ -1,8 +1,5 @@
-<img width="468" height="202" alt="image" src="https://github.com/user-attachments/assets/48161173-4703-48d2-8d46-a3411b2a1402" /><!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
-
 
 
   <h3 align="center">Predicting Complications and Mortality In Myocardial Infarction Patients Using A Graph Neural Network Model </h3>
