@@ -9,7 +9,7 @@
   <p align="justify">
        Myocardial infarction results from sudden coronary artery blockage, leading to myocardial necrosis and severe complications. Early prediction is critical to mitigate these life-threatening outcomes and improve patient survival, but it remains challenging due to data heterogeneity and limited temporal feature utilization. To address this crucial gap, we proposed a GraphTransformer-based model with three key innovations: First, a density-adaptive optimized K-Nearest Neighbor graph to model patient similarities dynamically. Second, a short-term Convolutional Neural Network for fine-grained temporal feature extraction with dynamic gating. Third, a long-term Gated Recurrent Unit with Mamba-inspired dynamic gating to capture robust long-term dependencies. Experiment on the Myocardial Infarction Complications dataset, our model achieved an average AUC of 0.7236, with a standout 0.8777 for mortality prediction. Moreover, SHapley Additive exPlanations analysis revealed critical features like serum sodium levels and temporal dynamics, and enhanced clinical interpretability. Leveraging automated feature extraction from admission data, 72-hour temporal sequences, and derived temporal features with missing values, our approach empowers a robust DL model for multi-outcome prediction. This approach has the potential to support outcome-specific risk stratification in clinical settings, serving as an exploratory foundation for integrating relational and temporal features in MI predictive modeling.  <br />
     <br />
-    The source code of HyCoSNet will be made public after the paper is accepted.
+    The source code of our GNN model will be made public after the paper is accepted.
     <br />
   </p>
    <h3 align="lift">Dataset </h3>
