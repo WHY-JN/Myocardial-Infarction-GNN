@@ -9,7 +9,7 @@
   <p align="justify">
        MMyocardial infarction (MI) is often complicated by heterogeneous life-threatening conditions, which require outcome-specific risk stratification. Current models typically predict a single composite endpoint and fail to fully exploit inter-patient similarities and temporal dynamics in electronic health records. To address this crucial gap,  we present the first graph neural network framework that simultaneously predicts 12 distinct post-MI complications and in-hospital mortality. The model integrates three targeted innovations: first, a density-adaptive K-nearest neighbor graph to capture clinically meaningful patient similarities; second, dual-branch short- and long-term temporal encoders with dynamic gating; and third, cross-modal attention for interactive fusion of multi-scale temporal features. Experiment on a 1,700-patient MI complications dataset, our model achieved an average AUC of 0.7330, with a standout 0.8828 for mortality prediction. SHAP analysis and built-in attention weights identified age, serum sodium, and dynamic laboratory trends as top predictors, aligning with clinical knowledge. This interpretable approach offers potential for early, individualized risk assessment in acute cardiac care.   <br />
     <br />
-    The source code of our GNN model has been made public as the paper is accepted.
+    The source code of our GNN model has been published as the paper has been accepted.
     <br />
   </p>
    <h3 align="lift">Dataset </h3>
